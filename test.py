@@ -9,6 +9,6 @@ conn = Connection(
     },
 )
 
-result = conn.run('uname -s')
+result = conn.run('/home/yhr/RJFireWall/uapp rule default accept')
 # 打印输出结果
 print(result.stdout)
